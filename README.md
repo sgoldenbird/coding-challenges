@@ -1,6 +1,13 @@
-# Coding Test Practice Log
+# Coding Challenges Hub
 
-This repository is for recording the coding test problems solved and the learning process.
+This repository is a centralized hub designed to consolidate various coding challenges and algorithmic problem-solving records that were previously scattered. It encompasses everything from personal skill-building to team-based challenges conducted through the organization.
+
+## 🧩 Structure(Submodule)
+
+This repository integrates independent challenge projects as Git submodules:
+
+- solveit
+- co-coding-challenges
 
 ## 💻 Language
 
@@ -8,26 +15,27 @@ This repository is for recording the coding test problems solved and the learnin
 
 ## 🚀 Goals
 
-- Improve problem-solving skills by solving various algorithmic problems.
-- Regularly solve problems and document the solutions to reinforce learning through repetition.
-- Record the algorithms and data structures learned with each problem.
-
-## 📈 Learning Progress
-
-- You can find the learning logs and list of solved problems in below repositories
-  - [the co-coding README](https://github.com/sgoldenbird/co-coding/blob/main/README.md)
-  - [the solveit README](https://github.com/front-studium/solveit/blob/main/README.md)
-- Problems to revisit are tracked in [issues](https://github.com/sgoldenbird/coding/issues)
+- Enhance problem-solving capabilities by tackling a diverse range of coding challenges.
+- Establish a consistent habit of solving and documenting problems to reinforce learning.
+- Systematically record the logic and data structures utilized in each solution.
 
 ## 🔗 Extensions Used
 
-This repository is connected to the following Chrome extensions for automatic submission of problem-solving records:
+To streamline the documentation process, this repository is integrated with the following extensions for automatic synchronization:
 
-- [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) – automatically commits solutions from [Baekjoon Online Judge](https://www.acmicpc.net/)
-- [LeetHub2](https://github.com/CQCode/LeetHub2) – automatically commits solutions from [LeetCode](https://leetcode.com/)
+- [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) – Automatically commits solutions from [Baekjoon Online Judge](https://www.acmicpc.net/)
+- [LeetHub2](https://github.com/CQCode/LeetHub2) – Automatically commits solutions from [LeetCode](https://leetcode.com/)
 
-> Auto-committed files are pushed to the `main` branch under the respective folders (e.g., `baekjoon/`, `leetcode/`, `프로그래머스/`).
+> Note: Auto-committed files are pushed to the `main` branch under the respective directories (e.g., `baekjoon/`, `leetcode/`, `프로그래머스/`).
 
-## 🤝 Collaboration
+<!--
+## 🛠 Maintenance
 
-This repository has the co-coding repository as a submodule, where collaborative coding practice takes place.
+If the remote repository URL changes or you need to synchronize the latest content, use the following commands:
+
+```bash
+# Sync submodule URLs and retrieve the latest content
+git submodule sync
+git submodule update --init --recursive
+```
+-->
