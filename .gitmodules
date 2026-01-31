@@ -1,6 +1,6 @@
 [submodule "co-coding"]
 	path = co-coding-challenges
-	url = https://github.com/sgoldenbird/co-coding.git
+	url = https://github.com/planet-devo/co-coding-challenges.git
 	branch = main
 [submodule "solveit"]
 	path = solveit

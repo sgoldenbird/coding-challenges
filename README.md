@@ -26,7 +26,7 @@ To streamline the documentation process, this repository is integrated with the 
 - [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub) – Automatically commits solutions from [Baekjoon Online Judge](https://www.acmicpc.net/)
 - [LeetHub2](https://github.com/CQCode/LeetHub2) – Automatically commits solutions from [LeetCode](https://leetcode.com/)
 
-> Note: Auto-committed files are pushed to the `main` branch under the respective directories (e.g., `baekjoon/`, `leetcode/`, `프로그래머스/`).
+Note: Auto-committed files are pushed to the `main` branch under the respective directories (e.g., `baekjoon/`, `leetcode/`, `프로그래머스/`).
 
 <!--
 ## 🛠 Maintenance
