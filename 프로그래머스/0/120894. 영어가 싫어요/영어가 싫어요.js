@@ -1,12 +1,18 @@
 function solution(numbers) {
-    const numWords = [
-        "zero", "one", "two", "three", "four", 
-        "five", "six", "seven", "eight", "nine"
-    ];
-    
-    numWords.forEach((word, index) => {
-        numbers = numbers.replaceAll(word, index);
-    });
-    
-    return Number(numbers);
+  const words = [
+    "zero",
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine",
+  ];
+
+  return Number(
+    words.reduce((str, word, i) => str.replaceAll(word, i), numbers),
+  );
 }
